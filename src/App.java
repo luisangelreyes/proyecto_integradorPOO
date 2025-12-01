@@ -183,7 +183,7 @@ public class App {
             String responsable = scanner.nextLine();
             
             if (sistema.cambiarEstado(incId, nuevoEstado, responsable)) {
-                System.out.println("✅ Estado cambiado a " + nuevoEstado);
+                System.out.println("Estado cambiado a " + nuevoEstado);
             } else {
                 System.out.println("Error al cambiar estado");
             }
